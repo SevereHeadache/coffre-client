@@ -1,0 +1,15 @@
+.fontsize-field {
+  width: 100%;
+  background: transparent;
+  border: none;
+  text-align: center;
+  outline: 0px solid transparent;
+  line-height: 1.2;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 1.5em;
+  color: var(--color-text);
+}

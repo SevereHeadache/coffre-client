@@ -1,0 +1,10 @@
+name: coffre
+services:
+  nodejs:
+    container_name: coffre-nodejs
+    build: .docker/nodejs
+    volumes:
+      - .:/var/www/html:rw
+    ports:
+      - ${NODEJS_PORT:-3000}:3000
+    restart: unless-stopped

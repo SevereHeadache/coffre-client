@@ -1,0 +1,27 @@
+.editor-content-view {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  padding: 0.5em;
+  overflow-wrap: break-word;
+  overflow-y: scroll;
+  background: var(--color-background);
+}
+
+#editor-editor {
+  resize: none;
+  outline: 0px solid transparent;
+  border: 0px solid transparent;
+  color: var(--color-text);
+}
+
+#editor-actions {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#editor-preview >>> pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+}

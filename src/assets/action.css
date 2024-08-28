@@ -1,0 +1,16 @@
+.action-main {
+  position: relative;
+  display: block;
+  margin-top: 0.25em;
+  margin-right: 0.25em;
+  padding: 0.7em;
+  width: 1.6em;
+  height: 1.6em;
+  line-height: 0;
+  cursor: pointer;
+  background: var(--color-background-mute);
+}
+
+.action-main:hover {
+  background: var(--color-background-soft);
+}

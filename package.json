@@ -1,0 +1,27 @@
+{
+  "name": "coffre",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@imengyu/vue3-context-menu": "^1.4.1",
+    "axios": "^1.7.4",
+    "highlight.js": "^11.9.0",
+    "hint.css": "^3.0.0",
+    "marked": "^12.0.1",
+    "marked-highlight": "^2.1.1",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "vue3-toastify": "^0.2.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.1.6"
+  }
+}

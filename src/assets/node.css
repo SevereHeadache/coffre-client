@@ -1,0 +1,39 @@
+.node-main {
+  margin-left: 0.8em;
+  white-space: nowrap;
+}
+
+.node-wrapper > span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.node-wrapper:hover {
+  cursor: pointer;
+}
+
+.node-wrapper:hover,
+.node-active {
+  color: var(--color-heading);
+}
+.node-wrapper:hover > .node-icon,
+.node-active > .node-icon {
+  fill: var(--color-heading);
+}
+
+.node-icon {
+  line-height: 0;
+  fill: var(--color-text);
+  height: 100%;
+  padding-right: 0.5em;
+  width: 0.5em;
+  pointer-events: none;
+}
+
+.node-item-name {
+  pointer-events: none;
+}
+
+#node-new-form {
+  margin: inherit;
+}
